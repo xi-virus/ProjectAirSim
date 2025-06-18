@@ -2,7 +2,7 @@
 
 Project AirSim is a simulation platform for drones, robots, and other autonomous systems.
 
-Building on the previous work of **[AirSim](https://github.com/microsoft/AirSim)**, it leverages **[Unreal Engine 4](https://www.unrealengine.com/)** to provide photo-realistic visuals, while providing the simulation framework needed to integrate custom physics, controllers, actuators, and sensors to develop an autonomous system.
+Building on the previous work of **[AirSim](https://github.com/microsoft/AirSim)**, it leverages **[Unreal Engine 5](https://www.unrealengine.com/)** to provide photo-realistic visuals, while providing the simulation framework needed to integrate custom physics, controllers, actuators, and sensors to develop an autonomous system.
 
 Project AirSim consists of three main layers:
 
@@ -12,47 +12,68 @@ Project AirSim consists of three main layers:
 
 3. **Project AirSim Client Library** - End-user library to enable API calls to interact with the robot and simulation over a network connection
 
-For more details on the architecture, see **[Project AirSim Architecture Overview](docs/internal/use_source.md#airsim-v-next-architecture-overview)**.
+For more details on the architecture, see **[Project AirSim Architecture Overview](docs/development/use_source.md#airsim-v-next-architecture-overview)**.
 
-Project AirSim currently supports Windows 10/Server 2019 and Ubuntu 20.04. For more info about hardware specs for working with Project AirSim, see **[System Specifications](docs/system_specs.md)**.
+Project AirSim currently supports Windows 11 and Ubuntu 22. For more info about hardware specs for working with Project AirSim, see **[System Specifications](docs/system_specs.md)**.
 
 ![Drone flying in Blocks environment](docs/images/drone_in_blocks.jpg)
+
+## Open Source Commitment
+
+We believe that open-source is the best way to foster innovation and collaboration in robotics simulation. Project AirSim can only thrive if it's built together — not by a single corporation, but by all of us.
+
+We invite you to become part of this journey: contribute code, share feedback, report issues, and help shape the future of the platform.
+
+## Enterprise Support
+
+IAMAI Simulations offers professional **Enterprise Support** for teams and organizations building on Project AirSim.
+
+Whether you're working on large-scale simulations, custom features, or integration into your existing stack, we can help you move faster and with confidence.
+
+**To learn more, visit [iamaisim.com](https://www.iamaisim.com).**
+
+## Support the Project
+
+Running and maintaining a project of this size has significant infrastructure and development costs. We are not Microsoft — we are a focused, passionate team. If you or your organization is benefiting from Project AirSim, please consider becoming a sponsor.
+
+Your support helps us:
+
+- Host and distribute binary releases  
+- Improve developer documentation and onboarding  
+- Offer community support and mentorship  
+- Push the platform forward with new features
+
+**To become a sponsor or partner, tap on the Sponsor button**
 
 ## What's New
 
 For a complete list of changes, view our **[Changelog](docs/changelog.md)**.
 
+## Roadmap and Collaboration
+
+Our project's roadmap and future direction are defined through GitHub issues and discussions. Issues or discussions labeled **roadmap** or **need help** outline planned features and areas where community contributions are encouraged. We invite you to participate and help shape the future of Project AirSim.
+
 ## Getting Started
 
 See **[Installing system prerequisites](docs/system_specs.md#installing-system-prerequisites)** for information about Windows/Linux system setup needed before running Project AirSim.
 
-### 1. Pre-built environment binaries
-
-> I just want to download and run a Project AirSim environment and drive it with some Python code.
-
-#### **[Use pre-built binary environments](docs/internal/use_prebuilt.md)**
-
-### 2. Drop-in Project AirSim Plugin
-
-> I want to try adding the Project AirSim Plugin to my own UE project environment so I can build some autonomous stuff.
-
-#### **[Use Project AirSim Plugin in custom environments](docs/use_plugin.md)**
-
-### 3. Develop with Project AirSim source
+### 1. Develop with Project AirSim source
 
 > I'm going to build the sim libs, Plugin, Blocks, and my own UE project environment from the ground up so I can customize it to my application.
 
-#### **[Build from source as a developer](docs/internal/use_source.md)**
+*Note:* You can either build Project AirSim from source or download pre-built binaries to use with the Python client. Currently, only the classic Blocks environment is available. If you require another environment (e.g., urban, geo-specific, etc.), you can sponsor its maintenance by contacting [info@iamaisim.com](mailto:info@iamaisim.com).
 
-### 4. Develop autonomy capabilities using Project AirSim
+#### **[Use pre-built binary environments](docs/development/use_prebuilt.md)**
 
-> I'm going to explore/build machine learning applications and models for autonomous perception/planning/control tasks using pre-trained models, datasets and learning environments from Project AirSim
+### 2. Develop with Project AirSim source
 
-#### **[Leverage/Build autonomy building-blocks using Project AirSim](docs/autonomy/autonomy.md)
+> I'm going to build the sim libs, Plugin, Blocks, and my own UE project environment from the ground up so I can customize it to my application.
 
-## Running Headless (Docker, Azure Cloud)
+#### **[Build from source as a developer](docs/development/use_source.md)**
 
-If you need to run a Project AirSim simulation on a headless system, such as in a Docker container or in the cloud on an Azure VM, you can enable off-screen rendering by adding the `-RenderOffScreen` argument when launching the Unreal environment executable:
+## Running Headless (Docker)
+
+If you need to run a Project AirSim simulation on a headless system, such as in a Docker container, you can enable off-screen rendering by adding the `-RenderOffScreen` argument when launching the Unreal environment executable:
 
 ```
 Blocks{.exe/.sh} -RenderOffScreen
@@ -64,7 +85,7 @@ If you are running without GPU access and want to run without any image renderin
 Blocks{.exe/.sh} -nullrhi
 ```
 
-These arguments can also be used while debugging in VS Code by modifying the `launch.json` file, or in Visual Studio 2019 by modifying the project's `Configuration Properties`. See **[Running Headless (Docker, Azure Cloud)](docs/internal/headless_cloud.md)** for more details.
+These arguments can also be used while debugging in VS Code by modifying the `launch.json` file, or in Visual Studio 2022 by modifying the project's `Configuration Properties`. See **[Running Headless (Docker, Azure Cloud)](docs/development/headless_cloud.md)** for more details.
 
 ## Reference
 
@@ -131,4 +152,7 @@ Please see the [License page](docs/license.md) for Project AirSim license inform
 
 ---
 
-Copyright (C) Microsoft Corporation.  All rights reserved.
+Copyright (C) Microsoft Corporation. 
+Copyright (C) IAMAI Consulting Corporation.  
+
+MIT License

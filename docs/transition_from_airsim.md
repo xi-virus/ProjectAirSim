@@ -23,7 +23,7 @@ To convert an existing AirSim Unreal environment to Project AirSim, you can perf
 
 3. Add Project AirSim to the environment following **[How to add the Project AirSim Plugin to a custom Unreal environment](use_plugin.md#how-to-add-the-airsim-v-next-plugin-to-a-custom-unreal-environment)**, including the part about setting the `GameMode` to `ProjectAirSimGameMode` since `AirSimGameMode` is no longer valid.
 
-4. On first opening of the `<environment>.uproject` file with Unreal Engine 4.25, there may be some warnings about failing to load some AirSim content such as:
+4. On first opening of the `<environment>.uproject` file with Unreal Engine 5.2, there may be some warnings about failing to load some AirSim content such as:
 
         Failed to load /AirSim/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.M_Tech_Hex_Tile_Pulse Referenced by StaticMeshComponent0
         Failed to load /AirSim/VehicleAdv/SUV/AutomotiveMaterials/Materials/Glass/M_Glass.M_Glass Referenced by StaticMeshComponent0
