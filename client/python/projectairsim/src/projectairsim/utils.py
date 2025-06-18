@@ -519,8 +519,8 @@ def load_scene_config_as_dict(
                     filepaths[1].append(total_actor_path)
                     with open(total_actor_path) as e:
                         temp = commentjson.load(e)
-                        validate_json(temp, robot_config_schema)
-                        combined_config = merge_dicts(combined_config,temp)
+                        combined_config = merge_dicts(combined_config, temp)
+                validate_json(combined_config, robot_config_schema)
                 actor["robot-config"] = combined_config
                 
     if "environment-actors" in data:
