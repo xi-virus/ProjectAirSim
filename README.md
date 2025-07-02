@@ -45,6 +45,17 @@ Your support helps us:
 
 **To become a sponsor or partner, tap on the Sponsor button**
 
+
+## Join the Community
+
+We believe that collaboration is key to building a thriving ecosystem around Project AirSim. Join our growing community to share ideas, ask questions, and collaborate with other developers and enthusiasts:
+
+- **Discord**: Connect with us on our official Discord server for real-time discussions, support, and updates. [Join here](https://discord.gg/XprQ2w64uj).
+- **GitHub Discussions**: Participate in discussions, share feedback, and contribute to shaping the future of Project AirSim. [Start a discussion](https://github.com/iamaisim/ProjectAirSim/discussions).
+
+We look forward to hearing from you and building the future of autonomous systems together!
+
+
 ## What's New
 
 For a complete list of changes, view our **[Changelog](docs/changelog.md)**.
