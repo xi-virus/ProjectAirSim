@@ -1,5 +1,4 @@
 # Using Pre-built Binary Environments
-{# include enable_internal_docs.tpp #}
 
 The quickest way to jump in and see what Project AirSim can do is to download and run a pre-built binary environment.
 

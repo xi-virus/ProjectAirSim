@@ -1,12 +1,11 @@
 # Developer Initial Setup for Linux
-{# include enable_internal_docs.tpp #}
 
 On Linux, Project AirSim can be developed with VS Code which provides a light-weight, cross-platform common experience between Linux and Windows.
 
-1. Clone the Project AirSim repo (**[SSH authentication](https://docs.microsoft.com/en-us/azure/devops/repos/git/use-ssh-keys-to-authenticate)** is recommended for Linux)
+1. Clone the Project AirSim repo
 
     ```
-    git clone bizair@vs-ssh.visualstudio.com:v3/bizair/Project%20AirSim/projectairsim
+    git clone https://github.com/iamaisim/ProjectAirSim.git
     ```
 
 2. From the `projectairsim/` folder, install the prerequisites:

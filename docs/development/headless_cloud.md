@@ -1,5 +1,4 @@
 # Running Headless (Docker)
-{# include enable_internal_docs.tpp #}
 
 ## Using headless mode with VS Code Debugging
 
