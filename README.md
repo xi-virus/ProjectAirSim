@@ -68,11 +68,11 @@ Our project's roadmap and future direction are defined through GitHub issues and
 
 See **[Installing system prerequisites](docs/system_specs.md#installing-system-prerequisites)** for information about Windows/Linux system setup needed before running Project AirSim.
 
-### 1. Develop with Project AirSim source
+### 1. Pre-built environment binaries
 
-> I'm going to build the sim libs, Plugin, Blocks, and my own UE project environment from the ground up so I can customize it to my application.
+> I just want to download and run a Project AirSim environment and drive it with some Python code.
 
-*Note:* You can either build Project AirSim from source or download pre-built binaries to use with the Python client. Currently, only the classic Blocks environment is available. If you require another environment (e.g., urban, geo-specific, etc.), you can sponsor its maintenance by contacting [info@iamaisim.com](mailto:info@iamaisim.com).
+*Note:* You can either build Project AirSim from source or download pre-built binaries to use with the Python client. Currently, only the classic Blocks environment is available. If you require another environment (e.g., urban, geo-specific, etc.), you can sponsor its maintenance by contacting [envs@iamaisim.com](mailto:info@iamaisim.com).
 
 #### **[Use pre-built binary environments](docs/development/use_prebuilt.md)**
 
@@ -164,6 +164,6 @@ This project may contain trademarks or logos for projects, products, or services
 ---
 
 Copyright (C) Microsoft Corporation. 
-Copyright (C) IAMAI Consulting Corp.  
+Copyright (C) IAMAI Consulting Corporation.  
 
-MIT License. All rights reserved.
+MIT License
