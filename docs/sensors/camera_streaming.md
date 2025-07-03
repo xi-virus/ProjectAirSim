@@ -140,4 +140,7 @@ To connect to a remote PixelStreaming view, such as running the sim server on VM
 
 ---
 
-Copyright (C) Microsoft Corporation.  All rights reserved.
+Copyright (C) Microsoft Corporation.  
+Copyright (C) 2025 IAMAI Consulting Corp.
+
+MIT License. All rights reserved.
