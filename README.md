@@ -110,11 +110,6 @@ These arguments can also be used while debugging in VS Code by modifying the `la
 
 - **[Overall API Info](docs/api.md)**
 
-### ROS Integration
-
-- **[ROS Bridge Setup and Use](docs/ros/ros.md)**
-- **[ROS Bridge Examples](docs/ros/ros_examples.md)**
-
 ### Controllers
 
 - **[Flight Controllers](docs/controllers/controllers.md)**
@@ -144,11 +139,6 @@ These arguments can also be used while debugging in VS Code by modifying the `la
 - **[Fast Physics](docs/physics/fast_physics.md)**
 - **[Matlab Physics](docs/physics/matlab_physics.md)**
 
-### Autonomy Blocks
-
-- **[Autonomy Building-Blocks](docs/autonomy/autonomy.md)**
-- **[Autonomy Gym](docs/autonomy/gym/gym_envs.md)**
-
 ## FAQ
 
 If you run into problems, check the **[FAQ](docs/faq.md)** for help.
@@ -163,7 +153,7 @@ Please see the [License page](docs/license.md) for Project AirSim license inform
 
 ---
 
-Copyright (C) Microsoft Corporation. 
+Copyright (C) Microsoft Corporation.  
 Copyright (C) IAMAI Consulting Corporation.  
 
 MIT License
