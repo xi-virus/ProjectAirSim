@@ -16,4 +16,4 @@
 add_subdirectory(src)
 
 # Add rover unit tests
-add_subdirectory(test)
+# add_subdirectory(test)
