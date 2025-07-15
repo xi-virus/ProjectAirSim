@@ -1,4 +1,7 @@
-// Copyright (C) Microsoft Corporation. All rights reserved.
+// Copyright (C) Microsoft Corporation. 
+// Copyright (C) IAMAI Consulting Corporation.  
+
+// MIT License. All rights reserved.
 
 #ifndef TOOLS_LVMON_LIB_INCLUDE_LVMON_LVMONMESSAGE_H_
 #define TOOLS_LVMON_LIB_INCLUDE_LVMON_LVMONMESSAGE_H_

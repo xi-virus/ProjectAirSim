@@ -1,5 +1,7 @@
 """
-Copyright (C) Microsoft Corporation. All rights reserved.
+Copyright (C) Microsoft Corporation. 
+Copyright (C) IAMAI Consulting Corporation.  
+MIT License.
 
 Demonstrates flying a quadrotor with Simulink physics and SimpleFlight controller.
 

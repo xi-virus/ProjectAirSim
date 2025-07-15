@@ -1,5 +1,7 @@
 """
-Copyright (C) Microsoft Corporation. All rights reserved.
+Copyright (C) Microsoft Corporation. 
+Copyright (C) IAMAI Consulting Corporation.  
+MIT License.
 
 This script serves as a convenient way to setup the azure blob container for data collection.
 USAGE:

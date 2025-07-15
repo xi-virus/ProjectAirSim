@@ -1,5 +1,7 @@
 """
-Copyright (C) Microsoft Corporation. All rights reserved.
+Copyright (C) Microsoft Corporation. 
+Copyright (C) IAMAI Consulting Corporation.  
+MIT License.
 ProjectAirSim:: Autonomy:: RL Gym Environments: Bonsai-SD3-compatible ProjectAirSimDetectAvoid Gym env
 This file contains the ProjectAirSimDetectAvoid simulator interface that
  allows training a Bonsai Brain to avoid obstacles and reach desired goals

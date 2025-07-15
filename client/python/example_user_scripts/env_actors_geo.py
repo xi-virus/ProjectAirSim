@@ -1,5 +1,7 @@
 """
-Copyright (C) Microsoft Corporation. All rights reserved.
+Copyright (C) Microsoft Corporation. 
+Copyright (C) IAMAI Consulting Corporation.  
+MIT License.
 
 Demonstrates the use of environment actors with geographic coordinates (Latitude,
 Longitude, Altitude).

@@ -1,5 +1,7 @@
 """
-Copyright (C) Microsoft Corporation. All rights reserved.
+Copyright (C) Microsoft Corporation. 
+Copyright (C) IAMAI Consulting Corporation.  
+MIT License.
 OpenAI Gym environment wrapper for AirSim-v2 Environments
 """
 

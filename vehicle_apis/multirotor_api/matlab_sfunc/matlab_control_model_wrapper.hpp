@@ -1,4 +1,7 @@
-// Copyright (C) Microsoft Corporation. All rights reserved.
+// Copyright (C) Microsoft Corporation. 
+// Copyright (C) IAMAI Consulting Corporation.  
+
+// MIT License. All rights reserved.
 
 #ifndef MATLAB_CONTROL_MODEL_WRAPPER_HPP
 #define MATLAB_CONTROL_MODEL_WRAPPER_HPP

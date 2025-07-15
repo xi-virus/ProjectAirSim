@@ -1,4 +1,7 @@
-// Copyright (C) Microsoft Corporation. All rights reserved.
+// Copyright (C) Microsoft Corporation. 
+// Copyright (C) IAMAI Consulting Corporation.  
+
+// MIT License. All rights reserved.
 
 #define S_FUNCTION_LEVEL 2
 #define S_FUNCTION_NAME matlab_physics_model_sfcn

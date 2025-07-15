@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """
-Copyright (C) Microsoft Corporation. All rights reserved.
+Copyright (C) Microsoft Corporation. 
+Copyright (C) IAMAI Consulting Corporation.  
+MIT License.
 ProjectAirSim:: Autonomy:: Gym Environment: MSFT Bonsai SDK3 Simulator Integration using Python
 
 Usage:

@@ -18,7 +18,9 @@ def read_jsonl(file):
 
 
 """
-Copyright (C) Microsoft Corporation. All rights reserved.
+Copyright (C) Microsoft Corporation. 
+Copyright (C) IAMAI Consulting Corporation.  
+MIT License.
 
 Script for generating a jsonl file based on an input `Dataset` object as well
 as static information from the config

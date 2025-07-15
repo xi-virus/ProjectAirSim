@@ -1,4 +1,7 @@
-// Copyright (c) Microsoft Corporation. All rights reserved.
+// Copyright (C) Microsoft Corporation. 
+// Copyright (C) IAMAI Consulting Corporation.  
+
+// MIT License. All rights reserved.
 
 #ifndef commn_utils_sincos_hpp
 #define commn_utils_sincos_hpp

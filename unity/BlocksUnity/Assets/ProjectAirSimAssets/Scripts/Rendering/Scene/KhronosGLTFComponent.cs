@@ -1,4 +1,7 @@
-// Copyright (C) Microsoft Corporation. All rights reserved.
+// Copyright (C) Microsoft Corporation. 
+// Copyright (C) IAMAI Consulting Corporation.  
+
+// MIT License. All rights reserved.
 
 // Script based on UnityGLTF plugin's GLTFComponent.cs. 
 // Modified onLoadComplete action to contain GameObject info for post-load processing. 

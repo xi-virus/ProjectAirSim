@@ -1,4 +1,7 @@
-// Copyright (C) Microsoft Corporation. All rights reserved.
+// Copyright (C) Microsoft Corporation. 
+// Copyright (C) IAMAI Consulting Corporation.  
+
+// MIT License. All rights reserved.
 
 #ifndef PHYSICS_INCLUDE_MESSAGE_COMMON_MESSAGE_UTILS_HPP_
 #define PHYSICS_INCLUDE_MESSAGE_COMMON_MESSAGE_UTILS_HPP_
