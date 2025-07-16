@@ -1,4 +1,7 @@
-// Copyright (C) Microsoft Corporation.  All rights reserved.
+// Copyright (C) Microsoft Corporation.  
+// Copyright (c) 2025 IAMAI Consulting Corporation.
+//
+// MIT License. All rights reserved.
 // The Unreal robot link implementation.
 
 #include "UnrealRobotLink.h"

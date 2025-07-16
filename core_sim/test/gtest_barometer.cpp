@@ -1,4 +1,7 @@
-// Copyright (C) Microsoft Corporation.  All rights reserved.
+// Copyright (C) Microsoft Corporation.  
+// Copyright (c) 2025 IAMAI Consulting Corporation.
+//
+// MIT License. All rights reserved.
 // Tests for IMU sensors
 
 #include "core_sim/config_json.hpp"

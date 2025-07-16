@@ -1,4 +1,7 @@
-// Copyright (C) Microsoft Corporation.  All rights reserved.
+// Copyright (C) Microsoft Corporation.  
+// Copyright (c) 2025 IAMAI Consulting Corporation.
+//
+// MIT License. All rights reserved.
 
 #ifndef MULTIROTOR_API_INCLUDE_ENABLE_LVMON_HPP_
 #define MULTIROTOR_API_INCLUDE_ENABLE_LVMON_HPP_

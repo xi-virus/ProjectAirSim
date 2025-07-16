@@ -1,4 +1,7 @@
-// Copyright (C) Microsoft Corporation.  All rights reserved.
+// Copyright (C) Microsoft Corporation.  
+// Copyright (c) 2025 IAMAI Consulting Corporation.
+//
+// MIT License. All rights reserved.
 // UnrealDistanceSensorSensor implementation that uses Ray Tracing in Unreal.
 
 #pragma once

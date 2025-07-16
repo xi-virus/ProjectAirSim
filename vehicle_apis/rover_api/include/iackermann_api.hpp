@@ -1,4 +1,7 @@
-// Copyright (C) Microsoft Corporation.  All rights reserved.
+// Copyright (C) Microsoft Corporation.  
+// Copyright (c) 2025 IAMAI Consulting Corporation.
+//
+// MIT License. All rights reserved.
 
 #ifndef ROVER_API_INCLUDE_IACKERMANN_API_HPP_
 #define ROVER_API_INCLUDE_IACKERMANN_API_HPP_
